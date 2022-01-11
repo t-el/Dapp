@@ -4,8 +4,7 @@
     {
       "inputs": [],
       "stateMutability": "nonpayable",
-      "type": "constructor",
-      "signature": "constructor"
+      "type": "constructor"
     },
     {
       "inputs": [],
@@ -19,8 +18,7 @@
       ],
       "stateMutability": "view",
       "type": "function",
-      "constant": true,
-      "signature": "0x445df0ac"
+      "constant": true
     },
     {
       "inputs": [],
@@ -34,8 +32,7 @@
       ],
       "stateMutability": "view",
       "type": "function",
-      "constant": true,
-      "signature": "0x8da5cb5b"
+      "constant": true
     },
     {
       "inputs": [
@@ -48,8 +45,7 @@
       "name": "setCompleted",
       "outputs": [],
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xfdacd576"
+      "type": "function"
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061024b806100606000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd57614610082575b600080fd5b61004e61009e565b60405161005b9190610140565b60405180910390f35b61006c6100a4565b604051610079919061019c565b60405180910390f35b61009c600480360381019061009791906101e8565b6100c8565b005b60015481565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561012457806001819055505b50565b6000819050919050565b61013a81610127565b82525050565b60006020820190506101556000830184610131565b92915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006101868261015b565b9050919050565b6101968161017b565b82525050565b60006020820190506101b1600083018461018d565b92915050565b600080fd5b6101c581610127565b81146101d057600080fd5b50565b6000813590506101e2816101bc565b92915050565b6000602082840312156101fe576101fd6101b7565b5b600061020c848285016101d3565b9150509291505056fea26469706673582212200be6a3e8358a3edbf1b3f114c601bed87721e1649322c86e11b4406ba275c6ee64736f6c634300080b0033",
@@ -864,8 +860,8 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0xa4BB06607ABa6fE9e6b6d6f60b5a9c3e10d79965",
-      "transactionHash": "0x1f306337dfda07e2b8e05bd569844a1965caee523213d532b7f7a4708a01689b"
+      "address": "0xa07a5fE5bf8410Be1508fE158D6Cd25e5aF56FA4",
+      "transactionHash": "0x0835e2f92ca80994ba4591c4abcfc1da114957a20b75c9710cbb250cfec42d4e"
     },
     "1641215943999": {
       "events": {},
@@ -874,8 +870,9 @@
       "transactionHash": "0xcb251173107b57045b01853667f5e88d468d20b31392e999fd92ef05460f3402"
     }
   },
-  "schemaVersion": "3.0.2",
-  "updatedAt": "2022-01-04T15:52:47.030Z",
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-10T12:06:25.708Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

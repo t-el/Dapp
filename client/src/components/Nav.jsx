@@ -16,7 +16,7 @@ class Nav extends React.Component {
       return (
        <div>
         
-        <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm position-relative">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Dlancing</a>
    
@@ -25,10 +25,13 @@ class Nav extends React.Component {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Orderes</a>
+        <li className="nav-item ">
+        <a type="button" className="nav-link ">
+                Orders &nbsp;
+                <span class="badge rounded-pill bg-danger">4</span>
+              </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item ">
           <span className="nav-link"><kbd>{this.props.balance?this.props.balance:"0"} {this.state.crypto_used[this.props.id]?this.state.crypto_used[this.props.id]:"You have to use Matic or ether"}</kbd></span>
         </li>
       </ul>

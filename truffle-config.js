@@ -17,9 +17,18 @@ module.exports = {
       network_id: 80001,
       confirmations: 2,
       timeoutBlocks: 200,
-      skipDryRun: true,
-      gas: 6000000,
-      gasPrice: 10000000000,
+      skipDryRun: true
+  }
+
+  ,
+
+  ropsten: {
+    provider: function() {
+      return new HDWalletProvider(process.env.MNEMONIC,
+         "https://rpc-mumbai.maticvigil.com/")
+    },
+  network_id: 80001,
+    gas: 4000000      //make sure this gas allocation isn't over 4M, which is the max
   }
 
   },

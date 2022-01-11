@@ -1,5 +1,5 @@
-var MADT = artifacts.require("./MADT.sol");
+var UserContract = artifacts.require("./UserContract.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(MADT);
+  deployer.deploy(UserContract);
 };

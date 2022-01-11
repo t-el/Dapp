@@ -16,7 +16,7 @@ class App extends Component {
        this.setState({web3:web3});
        if(await web3.eth.getChainId() === 1 ){
              // ethereum network
-       }else if(await web3.eth.getChainId() === 80001){
+       }else if(await web3.eth.getChainId() === 3){
             //Polygon network
        }else{
         this.setState({web3:null});
@@ -45,9 +45,11 @@ class App extends Component {
 
   render() {
     if (!this.state.web3) {
-      return <div >
-        You have to install and connect with Metamask and You have to use ETHER Or MATIC
-        </div>;
+      return (
+      <div className="card p-3 m-4 " >
+        <h1> You have to install and connect with Metamask and You have to use ETHER Or MATIC</h1>
+        </div>
+        );
     }
     return (
       <div className="App">
