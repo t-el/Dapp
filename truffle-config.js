@@ -22,12 +22,12 @@ module.exports = {
 
   ,
 
-  ropsten: {
+  matic: {
     provider: function() {
       return new HDWalletProvider(process.env.MNEMONIC,
          "https://rpc-mumbai.maticvigil.com/")
     },
-  network_id: 80001,
+    network_id: 80001,
     gas: 4000000      //make sure this gas allocation isn't over 4M, which is the max
   }
 
